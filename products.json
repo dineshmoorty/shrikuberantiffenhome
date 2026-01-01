@@ -1,0 +1,82 @@
+{
+  "Breakfast" : [
+    {
+      "Title" : "Idly [1pc]",
+      "image" : "./Assets/Images/idly.png",
+      "desc" : "Soft fluffy idlies prepared fresh daily using premium quality ingredients",
+      "price" : 8
+    },
+    {
+      "Title" : "Dosai [1pc]",
+      "image" : "./Assets/Images/Dosai.png",
+      "desc" : "Crispy golden dosas made from perfectly fermented traditional batter",
+      "price" : 30
+     
+    },
+    {
+      "Title" : "Chappathi [2pcs]",
+      "image" : "./Assets/Images/chappathi.png",
+      "desc" : "Soft whole wheat chapatis cooked fresh without preservatives daily",
+      "price" : 30
+    }
+  ],
+  
+  "Rice_Biryani" : [
+    {
+      "Title" : "Tomato Rice",
+      "image" : "./Assets/Images/Tomoato_Rice.png",
+      "desc" : "Flavorful tomato rice cooked with spices herbs and fresh tomatoes",
+      "price" : 40
+    },    
+    {
+      "Title" : "Tamarind Rice [Puliyotharai]",
+      "image" : "./Assets/Images/Tamarind_rice.png",
+      "desc" : "Classic tamarind rice prepared with homemade spice blend",
+      "price" : 40
+    },    
+    {
+      "Title" : "VenPongal",
+      "image" : "./Assets/Images/VenPongal.png",
+      "desc" : "Traditional ven pongal made with rice dal ghee pepper",
+      "price" : 40
+    },    {
+      "Title" : "Mushroom Briyani",
+      "image" : "./Assets/Images/Mushroom_Biriyani.png",
+      "desc" : "Aromatic mushroom biriyani cooked with basmati rice spices",
+      "price" : 40
+    },    
+    {
+      "Title" : "Veg Briyani",
+      "image" : "./Assets/Images/Veg_Biriyani.png",
+      "desc" : "Delicious vegetable biriyani made with basmati rice spices",
+      "price" : 40
+    },    
+    {
+      "Title" : "Malli Rice",
+      "image" : "./Assets/Images/Malli_Rice.png",
+      "desc" : "Refreshing coriander rice cooked with herbs mild spices",
+      "price" : 40
+    }
+  ],
+
+  "Ready_to_eat" : [
+    {
+      "Title" : "Idly / Dosai Batter [500G]",
+      "image" : "./Assets/Images/Batter.png",
+      "desc" : "Freshly ground batter prepared daily for soft idlies dosas",
+      "price" : 20
+    },
+    {
+      "Title" : "Idly / Dosai Batter [1Kg]",
+      "image" : "./Assets/Images/Batter.png",
+      "desc" : "Freshly ground batter prepared daily for soft idlies dosas",
+      "price" : 40
+    },    
+    {
+      "Title" : "Tamarind Mix",
+      "image" : "./Assets/Images/TamarindMix.png",
+      "desc" : "Homemade tamarind mix prepared using traditional recipe spices",
+      "price" : 25
+    }
+  ]
+}

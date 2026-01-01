@@ -23,15 +23,13 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top mb-3">
     <div class="container">
       <a class="navbar-brand fw-bold" href="#">
         <img src="./Assets/Images/Logo.png" height="45" /> Shri Kuberan Tiffen Home
       </a>
       <ul class="nav" id="menutabs">
-        <li class="nav-item"><a href="#breakfast" class="nav-link active text-black">Dinner</a></li>
-        <li class="nav-item"><a href="#rice" class="nav-link text-black">Biriyai</a></li>
-        <li class="nav-item"><a href="#readytoeat" class="nav-link text-black">Ready to Eat</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link text-black">About Us</a></li>        
         <li class="nav-item"><a href="#contact" class="nav-link text-black">Call Us</a></li>
       </ul>
     </div>
@@ -45,7 +43,7 @@
       <div class="col-md-6">
         <h1 class="fw-bold">Fresh South Indian Veg Meals</h1>
         <p class="mt-3">Homely taste, hygienic preparation, everyday freshness.</p>
-        <a href="https://www.zomato.com/madurai/shri-kuberan-tiffen-home-periyar" target="_blank" class="btn btn-outline-success">Order on Zomato</a>
+        <a href="https://www.zomato.com/madurai/shri-kuberan-tiffen-home-periyar" target="_blank" class="btn btn-outline-danger">Order on Zomato</a>
       </div>
 
       <div class="col-md-6 text-center">
@@ -54,212 +52,54 @@
 
     </div>
   </div>
+  
   <!-- Breakfast / Dinner -->
   <section class="py-5" id="breakfast">
-    <div class="container mt-3 ">
+    <div class="container mt-3">
       <h2 class="mb-3 mt-3">BreakFast / Dinner</h2>
-      <div class="row g-4">
-
-        <!-- Idly -->
-        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body text-center">
-              <h5>Idly</h5>
-              <img src="./Assets/Images/idly.png" alt="" class="img-fluid pt-2 pb-2 food">
-              <p class="small fw-semibold">Soft fluffy idlies prepared fresh daily using premium quality ingredients</p>
-              <div class="cta">
-                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
-                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
-                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Dosai -->
-        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body text-center">
-              <h5>Dosai</h5>
-              <img src="./Assets/Images/Dosai.png" alt="" class="img-fluid pt-2 pb-2 food">
-              <p class="small fw-semibold">Crispy golden dosas made from perfectly fermented traditional batter</p>           
-              <div class="cta">
-                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
-                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
-                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Chapati -->
-        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body text-center">
-              <h5>Chapati</h5>
-              <img src="./Assets/Images/chappathi.png" alt="" class="img-fluid pt-2 pb-2 food">
-              <p class="small fw-semibold">Soft whole wheat chapatis cooked fresh without preservatives daily</p>           
-              <div class="cta">
-                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
-                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
-                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
+      <div class="row g-4" id="breakfastRow"></div>
     </div>
-
   </section>
 
   <!-- Rice / Biriyani -->
-  <section class="py-5" id="rice">
-    <div class="container mt-3 ">
+  <section class="py-5" id="riceSection">
+    <div class="container mt-3">
       <h2 class="mb-3 mt-3">Rice / Biriyani</h2>
-      <div class="row g-4">
-
-        <!-- Ven Pongal -->
-        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body text-center">
-              <h5>Ven Pongal</h5>
-              <img src="./Assets/Images/VenPongal.png" alt="" class="img-fluid pt-2 pb-2 food">
-              <p class="small fw-semibold">Traditional ven pongal made with rice dal ghee pepper</p>
-              <div class="cta">
-                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
-                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
-                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Tomato Rice -->
-        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body text-center">
-              <h5>Tomato Rice</h5>
-              <img src="./Assets/Images/Tomoato_Rice.png" alt="" class="img-fluid pt-2 pb-2 food">
-              <p class="small fw-semibold">Flavorful tomato rice cooked with spices herbs and fresh tomatoes</p>           
-              <div class="cta">
-                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
-                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
-                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Puliyotharai -->
-        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body text-center">
-              <h5>Puliyotharai</h5>
-              <img src="./Assets/Images/Tamarind_rice.png" alt="" class="img-fluid pt-2 pb-2 food">
-              <p class="small fw-semibold">Classic tamarind rice prepared with homemade spice blend</p>              
-              <div class="cta">
-                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
-                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
-                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Malli Rice -->
-        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body text-center">
-              <h5>Malli Rice</h5>
-              <img src="./Assets/Images/Malli_Rice.png" alt="" class="img-fluid pt-2 pb-2 food">
-              <p class="small fw-semibold">Refreshing coriander rice cooked with herbs mild spices</p>             
-              <div class="cta">
-                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
-                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
-                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Mushroom Biriyani -->
-        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body text-center">
-              <h5>Mushroom Biriyani</h5>
-              <img src="./Assets/Images/Mushroom_Biriyani.png" alt="" class="img-fluid pt-2 pb-2 food">
-              <p class="small fw-semibold">Aromatic mushroom biriyani cooked with basmati rice spices</p>             
-              <div class="cta">
-                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
-                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
-                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Veg Biriyani Rice -->
-        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-          <div class="card h-100 shadow-sm border-0">
-            <div class="card-body text-center">
-              <h5>Veg Biriyani</h5>
-              <img src="./Assets/Images/Veg_Biriyani.png" alt="" class="img-fluid pt-2 pb-2 food">
-              <p class="small fw-semibold">Delicious vegetable biriyani made with basmati rice spices</p>             
-              <div class="cta">
-                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
-                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
-                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="row g-4" id="riceRow"></div>
     </div>
   </section>
 
   <!-- Ready to Eat -->
-  <section class="py-5" id="readytoeat">
-      <div class="container mt-3 ">
-        <h2 class="mb-3 mt-3">Ready to Eat</h2>
-        <div class="row g-4">
+  <section class="py-5" id="readySection">
+    <div class="container mt-3">
+      <h2 class="mb-3 mt-3">Ready to Eat</h2>
+      <div class="row g-4" id="readyRow"></div>
+    </div>
+  </section>
 
-          <!-- Batter -->
-          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-            <div class="card h-100 shadow-sm border-0">
-              <div class="card-body text-center">
-                <h5>Idly / Dosai Batter</h5>
-                <img src="./Assets/Images/Batter.png" alt="" class="img-fluid pt-2 pb-2 food">
-                <p class="small fw-semibold">Freshly ground batter prepared daily for soft idlies dosas</p>
-                <div class="cta">
-                  <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
-                  <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a> 
-                  <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
-                </div>
-              </div>
-            </div>
-          </div>
+  <div class="container" id="about">
+    <div class="row align-items-center">
+      
+      <div class="col-md-6">
+        <h2 class="fw-bold">About Us</h2>
+        <p class="mt-3">
+          We believe good food brings comfort.
+          At Shri Kuberan Tiffen Home, we cook the way food is made at home —
+          simple recipes, fresh ingredients, and lots of care.
+          Our goal is to serve meals that feel familiar, filling, and satisfying.
+        </p>
 
-          <!-- Tamarind Mix -->
-          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-            <div class="card h-100 shadow-sm border-0">
-              <div class="card-body text-center">
-                <h5>Tamarind Mix</h5>
-                <img src="./Assets/Images/TamarindMix.png" alt="" class="img-fluid pt-2 pb-2 food">
-                <p class="small fw-semibold">Homemade tamarind mix prepared using traditional recipe spices</p>
-                <div class="cta">
-                  <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
-                  <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
-                  <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
-                </div>
-              </div>
-            </div>
-          </div>
 
-        </div>
+        <a href="https://www.zomato.com/madurai/shri-kuberan-tiffen-home-periyar" target="_blank" class="btn btn-outline-danger mt-3 mb-3">Order on Zomato</a>
       </div>
 
-  </section>
+      <div class="col-md-6 text-center">
+        <img src="./Assets/Images/about.jpg" class="img-fluid about" />
+      </div>
+
+    </div>
+  </div>
+
 
   <!-- contact -->
   <section id="contact" class="py-5 bg-light">
@@ -314,7 +154,7 @@
         <!-- Contact Info + GST/FSSAI -->
         <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3">
           <h5 class="text-uppercase mb-4" style="color: var(--primary-yellow); font-weight:bold;">
-            Shri Kuberan Tiffen Homme
+            Shri Kuberan Tiffen Home
           </h5>
           <p>106A, Panthadi 9th Street, Thavittusandhai, Madurai 01.</p>
           <p>Phone: +91-9488270932</p>
@@ -347,71 +187,16 @@
     </div>
   </footer>
 
-  <script>
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
-  </script>
-
-  <script>
-    const form = document.getElementById('contactForm');
-    const formMessage = document.getElementById('formMessage');
-
-    form.addEventListener('submit', function(event) {
-      event.preventDefault();
-      const formData = new FormData(form);
-      fetch(form.action, {
-        method: 'POST',
-        body: formData,
-        headers: { 'Accept': 'application/json' }
-      }).then(response => {
-        if(response.ok) {
-          formMessage.textContent = "Thank you! Your enquiry has been sent.";
-          form.reset();
-        } else {
-          formMessage.textContent = "Oops! There was a problem submitting your form.";
-        }
-      });
-    });
-  </script>
-
-  <!-- link share -->
-  <script>
-    function shareDish() {
-      if (navigator.share) {
-        navigator.share({
-          title: 'Shri Kuberan Tiffen Home',
-          text: 'Fresh Idly, Dosa & Batter available. Order now!',
-          url: window.location.href
-        });
-      } else {
-        alert('Sharing not supported. Copy the link manually.');
-      }
-    }
-  </script>
-
-  <!-- active -->
-  <script>
-    const tabs = document.querySelectorAll('#menuTabs .nav-link');
-
-    tabs.forEach(tab => {
-      tab.addEventListener('click', function () {
-
-        // remove active from all
-        tabs.forEach(t => t.classList.remove('active'));
-
-        // add active to clicked tab
-        this.classList.add('active');
-      });
-    });
-  </script>
-
-
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+  <script src="./scripts/general.js"></script>
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
 
 </body>
 
 </html>
-

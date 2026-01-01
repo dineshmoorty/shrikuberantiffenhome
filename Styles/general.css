@@ -71,3 +71,7 @@ input[type="number"] {
   background-color: #198754; /* bootstrap success */
   color: #fff;
 }
+
+.about {
+  border-radius: 10px;
+}
