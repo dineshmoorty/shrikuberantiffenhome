@@ -48,3 +48,26 @@ input[type="number"] {
 .food {
   border-radius: 15px;
 }
+/* Media querry */
+@media screen and (max-width:1024px) {
+  .cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .cta {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+.nav-pills .nav-link.active {
+  background-color: #198754; /* bootstrap success */
+  color: #fff;
+}

@@ -28,137 +28,224 @@
       <a class="navbar-brand fw-bold" href="#">
         <img src="./Assets/Images/Logo.png" height="45" /> Shri Kuberan Tiffen Home
       </a>
+      <ul class="nav" id="menutabs">
+        <li class="nav-item"><a href="#breakfast" class="nav-link active text-black">Dinner</a></li>
+        <li class="nav-item"><a href="#rice" class="nav-link text-black">Biriyai</a></li>
+        <li class="nav-item"><a href="#readytoeat" class="nav-link text-black">Ready to Eat</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link text-black">Call Us</a></li>
+      </ul>
     </div>
   </nav>
 
-  <main>
-    <section class="py-5">
-      <div class="container">
-        <div class="row align-items-center">
-          
-          <div class="col-md-6">
-            <h1 class="fw-bold">Fresh South Indian Veg Meals</h1>
-            <p class="mt-3">Homely taste, hygienic preparation, everyday freshness.</p>
-            <a href="https://www.zomato.com/madurai/shri-kuberan-tiffen-home-periyar" target="_blank" class="btn btn-outline-success">Order on Zomato</a>
-          </div>
+<main>
+  <!-- Breakfast / Dinner -->
+  <section class="py-5" id="breakfast">
+    <div class="container mt-3 ">
+      <h2 class="mb-3 mt-3">BreakFast / Dinner</h2>
+      <div class="row g-4">
 
-          <div class="col-md-6 text-center">
-            <img src="./Assets/Images/Logo.png" class="img-fluid" />
+        <!-- Idly -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body text-center">
+              <h5>Idly</h5>
+              <img src="./Assets/Images/idly.png" alt="" class="img-fluid pt-2 pb-2 food">
+              <p class="small fw-semibold">Soft fluffy idlies prepared fresh daily using premium quality ingredients</p>
+              <div class="cta">
+                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
+                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
+                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
+              </div>
+            </div>
           </div>
+        </div>
 
+        <!-- Dosai -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body text-center">
+              <h5>Dosai</h5>
+              <img src="./Assets/Images/Dosai.png" alt="" class="img-fluid pt-2 pb-2 food">
+              <p class="small fw-semibold">Crispy golden dosas made from perfectly fermented traditional batter</p>           
+              <div class="cta">
+                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
+                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
+                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapati -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body text-center">
+              <h5>Chapati</h5>
+              <img src="./Assets/Images/chappathi.png" alt="" class="img-fluid pt-2 pb-2 food">
+              <p class="small fw-semibold">Soft whole wheat chapatis cooked fresh without preservatives daily</p>           
+              <div class="cta">
+                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
+                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
+                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Rice / Biriyani -->
+  <section class="py-5" id="rice">
+    <div class="container mt-3 ">
+      <h2 class="mb-3 mt-3">Rice / Biriyani</h2>
+      <div class="row g-4">
+
+        <!-- Ven Pongal -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body text-center">
+              <h5>Ven Pongal</h5>
+              <img src="./Assets/Images/VenPongal.png" alt="" class="img-fluid pt-2 pb-2 food">
+              <p class="small fw-semibold">Traditional ven pongal made with rice dal ghee pepper</p>
+              <div class="cta">
+                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
+                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
+                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tomato Rice -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body text-center">
+              <h5>Tomato Rice</h5>
+              <img src="./Assets/Images/Tomoato_Rice.png" alt="" class="img-fluid pt-2 pb-2 food">
+              <p class="small fw-semibold">Flavorful tomato rice cooked with spices herbs and fresh tomatoes</p>           
+              <div class="cta">
+                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
+                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
+                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Puliyotharai -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body text-center">
+              <h5>Puliyotharai</h5>
+              <img src="./Assets/Images/Tamarind_rice.png" alt="" class="img-fluid pt-2 pb-2 food">
+              <p class="small fw-semibold">Classic tamarind rice prepared with homemade spice blend</p>              
+              <div class="cta">
+                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
+                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
+                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Malli Rice -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body text-center">
+              <h5>Malli Rice</h5>
+              <img src="./Assets/Images/Malli_Rice.png" alt="" class="img-fluid pt-2 pb-2 food">
+              <p class="small fw-semibold">Refreshing coriander rice cooked with herbs mild spices</p>             
+              <div class="cta">
+                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
+                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
+                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mushroom Biriyani -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body text-center">
+              <h5>Mushroom Biriyani</h5>
+              <img src="./Assets/Images/Mushroom_Biriyani.png" alt="" class="img-fluid pt-2 pb-2 food">
+              <p class="small fw-semibold">Aromatic mushroom biriyani cooked with basmati rice spices</p>             
+              <div class="cta">
+                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
+                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
+                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Veg Biriyani Rice -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body text-center">
+              <h5>Veg Biriyani</h5>
+              <img src="./Assets/Images/Veg_Biriyani.png" alt="" class="img-fluid pt-2 pb-2 food">
+              <p class="small fw-semibold">Delicious vegetable biriyani made with basmati rice spices</p>             
+              <div class="cta">
+                <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
+                <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
+                <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+  </section>
 
-      <h1 class="text-center mt-3 mb-3">Menu</h1>
-
-      <div class="container mt-5 ">
+  <!-- Ready to Eat -->
+  <section class="py-5" id="readytoeat">
+      <div class="container mt-3 ">
+        <h2 class="mb-3 mt-3">Ready to Eat</h2>
         <div class="row g-4">
 
-          <!-- Idly -->
+          <!-- Batter -->
           <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="card h-100 shadow-sm border-0">
               <div class="card-body text-center">
-                <h5>Idly</h5>
-                <img src="./Assets/Images/idly.avif" alt="" class="img-fluid pt-2 pb-2 food">
-                <p class="small fw-semibold">Soft & fluffy steamed delight</p>
-                <p class="small">
-                  Soft and fluffy steamed idlies made from perfectly fermented rice and lentil batter.
-                  Light on the stomach and served fresh, making it an ideal choice for breakfast
-                  or a wholesome meal. Best enjoyed with chutney and sambar.
-                </p>
+                <h5>Idly / Dosai Batter</h5>
+                <img src="./Assets/Images/Batter.png" alt="" class="img-fluid pt-2 pb-2 food">
+                <p class="small fw-semibold">Freshly ground batter prepared daily for soft idlies dosas</p>
+                <div class="cta">
+                  <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
+                  <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a> 
+                  <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
+                </div>
               </div>
             </div>
           </div>
 
-
-          <!-- Ven Pongal -->
+          <!-- Tamarind Mix -->
           <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="card h-100 shadow-sm border-0">
               <div class="card-body text-center">
                 <h5>Ven Pongal</h5>
-                <img src="./Assets/Images/venpongal.jpg" alt="" class="img-fluid pt-2 pb-2 food">
-                <p class="small fw-semibold">Classic South Indian comfort food</p>
-                <p class="small">
-                  Traditional Ven Pongal made with rice and moong dal, slow-cooked with ghee,
-                  black pepper, cumin, and cashews. Mildly spiced, rich, and comforting,
-                  perfect for breakfast or a hearty meal.
-                </p>
+                <img src="./Assets/Images/TamarindMix.png" alt="" class="img-fluid pt-2 pb-2 food">
+                <p class="small fw-semibold">Homemade tamarind mix prepared using traditional recipe spices</p>
+                <div class="cta">
+                  <a href="tel:9488270932" class="btn btn-outline-info">Call US</a>
+                  <a href="https://wa.me/919488270932" target="_blank"  class="btn btn-outline-success">Whatsapp</a>
+                  <a href="javascript:void(0)" onclick="shareDish()" class="btn btn-outline-danger">Share Dish</a>
+                </div>
               </div>
             </div>
           </div>
 
-
-          <!-- Tomato Rice -->
-          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-            <div class="card h-100 shadow-sm border-0">
-              <div class="card-body text-center">
-                <h5>Tomato Rice</h5>
-                <img src="./Assets/Images/TomatoRice.jpg" alt="" class="img-fluid pt-2 pb-2 food">
-                <p class="small fw-semibold">Tangy and flavorful rice dish</p>
-                <p class="small">
-                  Aromatic tomato rice prepared with ripe tomatoes, fragrant rice,
-                  and a blend of South Indian spices. Slightly tangy and mildly spicy,
-                  making it a satisfying and flavorful meal.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Puliyotharai -->
-          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-            <div class="card h-100 shadow-sm border-0">
-              <div class="card-body text-center">
-                <h5>Puliyotharai</h5>
-                <img src="./Assets/Images/puli.webp" alt="" class="img-fluid pt-2 pb-2 food">
-                <p class="small fw-semibold">Traditional tamarind rice</p>
-                <p class="small">
-                  Authentic Puliyotharai made using tamarind extract, roasted spices,
-                  and peanuts. Bold, tangy, and rich in flavor,
-                  inspired by classic South Indian temple recipes.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Malli Rice -->
-          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-            <div class="card h-100 shadow-sm border-0">
-              <div class="card-body text-center">
-                <h5>Malli Rice</h5>
-                <img src="./Assets/Images/malli.jpg" alt="" class="img-fluid pt-2 pb-2 food">
-                <p class="small fw-semibold">Fresh coriander flavored rice</p>
-                <p class="small">
-                  Fragrant Malli Rice prepared with fresh coriander leaves,
-                  aromatic rice, and mild spices. Light, refreshing,
-                  and perfect for a wholesome lunch or dinner.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Chapati -->
-          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-            <div class="card h-100 shadow-sm border-0">
-              <div class="card-body text-center">
-                <h5>Chapati</h5>
-                <img src="./Assets/Images/chappathi.jpg" alt="" class="img-fluid pt-2 pb-2 food">
-                <p class="small fw-semibold">Soft whole wheat flatbread</p>
-                <p class="small">
-                  Soft and freshly prepared chapatis made from high-quality whole wheat flour.
-                  Light, healthy, and the perfect accompaniment to curries,
-                  gravies, and dals.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="mt-4 text-center">
-        <a href="https://www.zomato.com/madurai/shri-kuberan-tiffen-home-periyar" target="_blank" class="btn btn-outline-danger">Order on Zomato</a>
       </div>
 
   </section>
 
+  <!-- contact -->
   <section id="contact" class="py-5 bg-light">
     <div class="container">
       <h2 class="mb-4 text-center">Contact / Enquiry</h2>
@@ -202,8 +289,7 @@
     </div>
   </section>
 
-
-  </main>
+</main>
 
   <footer class="pt-5 pb-4" style="background-color: var(--dark-green); color: white;">
     <div class="container text-md-left">
@@ -271,11 +357,44 @@
     });
   </script>
 
+  <!-- link share -->
+  <script>
+    function shareDish() {
+      if (navigator.share) {
+        navigator.share({
+          title: 'Shri Kuberan Tiffen Home',
+          text: 'Fresh Idly, Dosa & Batter available. Order now!',
+          url: window.location.href
+        });
+      } else {
+        alert('Sharing not supported. Copy the link manually.');
+      }
+    }
+  </script>
+
+  <!-- active -->
+  <script>
+    const tabs = document.querySelectorAll('#menuTabs .nav-link');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', function () {
+
+        // remove active from all
+        tabs.forEach(t => t.classList.remove('active'));
+
+        // add active to clicked tab
+        this.classList.add('active');
+      });
+    });
+  </script>
+
+
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+
 </body>
 
 </html>
